@@ -1,0 +1,107 @@
+=head1 Simple DirectMedia Library Bindings for Perl
+
+Welcome to the new SDL Perl pages, graciously hosted by Perl.org.
+
+=head2 Latest News
+
+B<11 August 2009> SDL_Perl is on Github
+
+The master branch is stable on CPAN as v2.2.0. This only Builds on Linux and Darwin platforms.
+Work is being done on v2.2.1 to add building support for other platforms.
+
+The bleeding edge code is available from
+L<http://github.com/kthakore/SDL_Perl/>.
+
+See
+L<http://search.cpan.org/~dgoehrig/SDL_Perl-2.2.0/lib/SDL.pm>.  Please report any strange behavior
+to the list. 
+
+
+
+=head2 Tutorials Online!
+
+We've written four tutorials so far, and you can read them online:
+
+=over 4
+
+=item SDL::Tutorial at L<http://sdl.perl.org/tutorials/>
+
+An introduction to SDL Perl.
+
+=item SDL::Tutorial::Drawing at L<http://sdl.perl.org/tutorials/drawing.html>
+
+Drawing basics.
+
+=item SDL::Tutorial::Animation at L<http://sdl.perl.org/tutorials/animation.html>
+
+Animation basics.
+
+=item SDL::Tutorial::Images at L<http://sdl.perl.org/tutorials/images.html>
+
+Image loading and animation.
+
+=back
+
+Of course, if you grab a snapshot and install it, not only can you report
+successes (and probably a few bugs), but you can play with the demo program for
+each tutorial!  It's very fun.
+
+=head2 Articles
+
+Developing games with Perl and SDL on Ars Technica written by Andy Bakun
+L<http://arstechnica.com/gaming/news/2006/02/games-perl.ars>
+
+=head2 A Little History
+
+Why are these pages new?  In October, David GE<ouml>hrig, the creator and
+maintainer of SDL Perl, announced that he was quitting his job, selling all his
+stuff, and going backpacking in Europe for a few months.  That left SDL Perl
+without a maintainer or a home. But SDL Perl is back and running with Kartik and 
+David's help.
+
+=head2 Future Plans
+
+We're working on polishing the latest code available to make the v2.2.1
+release. One of our goals after a working build is to have a Parrot parser 
+with Perl 5 NCI to make installing even simpler.
+
+Here is the roadmap so far. 
+L<http://wiki.github.com/cthulhuology/SDLPerl>
+
+Hopefully, Perl will soon be a wonderful language in which to write media
+applications -- including games.
+
+We'll be making archives of the old mailing list available.  Subscribe to the
+development list by sending an e-mail to C<sdl-devel-subscribe@perl.org>.
+Subscribe to the source code changes list by sending an e-mail to
+C<sdl-changes-subscribe@perl.org>.
+
+
+=head2 Applications
+
+
+App-Fotagger is an application to add tags to images.
+It was the first attempt of Thomas Klausner at SDL and 
+it can be improved a lot: L<http://search.cpan.org/dist/App-Fotagger>
+
+=head2 Games
+
+The original Frozen Bubble L<http://www.frozen-bubble.org/> is probably 
+the most well known application written in SDL Perl.
+
+Thomas Klausner has started a Space Invaders clone in SDL Perl. 
+You can find the code on Github L<http://github.com/domm/Game-PerlInvaders>.
+
+=head2 Related Links
+
+=over 4
+
+=item L<http://www.libsdl.org/>
+
+The SDL Homepage
+
+=item L<http://wiki.github.com/kthakore/SDL_perl/dependencies>
+
+Where to find SDL dependencies
+
+=back
